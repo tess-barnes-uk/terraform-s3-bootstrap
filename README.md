@@ -39,6 +39,7 @@ The Terraform configuration sets up:
       s3_bucket_name = "your-s3-bucket-name"
       aws_region = "your-aws-region"
       owner = "your-name"
+      kms_alias_name = "alias/your-memorable-name"
       ```
 
 3. **Initialize Terraform**:
